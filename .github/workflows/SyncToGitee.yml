@@ -15,7 +15,7 @@ jobs:
       uses: Yikun/hub-mirror-action@master
       with:
         src: gitee/cwkyaoyao
-        dst: github/Cai_Yao
+        dst: github/Cai-Yao
         dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
         dst_token:  ${{ secrets.GITEE_TOKEN }}
         static_list: "blog_img"
