@@ -16,8 +16,8 @@ jobs:
       with:
         src: gitee/cwkyaoyao
         dst: github/Cai_Yao
-        dst_key: ${{ secrets.SYNC__PRIVATE_KEY }}
-        dst_token:  ${{ secrets.SYNC_TOKEN }}
+        dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
+        dst_token:  ${{ secrets.GITEE_TOKEN }}
         static_list: "blog_img"
         force_update: true
         debug: true
